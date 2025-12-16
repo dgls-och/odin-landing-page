@@ -85,6 +85,7 @@ h1 {
     border-radius: 8px;
 }
 
+
 /* section-1 */
 #section-1 {
     width: 80%;
@@ -121,4 +122,22 @@ h1 {
 .box-container p {
     text-align: center;
     margin-top: 10px;
+}
+
+
+/* section-2 (quote section) */
+#section-2 {
+    background-color: #E5E7EB;
+    font-size: 24px;
+}
+
+.quote-container {
+    width: 45%;
+    margin: auto;
+    padding-block: 70px;
+}
+
+.quote-container p {
+    text-align: right;
+    font-weight: 600;
 }
