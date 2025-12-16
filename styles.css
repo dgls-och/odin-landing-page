@@ -36,10 +36,22 @@ body {
 
 .nav-link {
     display: flex;
-    gap: 13px;
+    gap: 20px;
 } .nav-link a {
     text-decoration: none;
     word-spacing: -1px;
+}
+
+/* hero container */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-text {
+    width: 40%;
 }
 
 h1 {
@@ -49,6 +61,26 @@ h1 {
 }
 
 .image-placeholder {
+    background-color: #5A5A6F;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
     font-size: 24px;
     color: #F9FAF8;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text p {
+    margin-block: 20px;
+}
+
+.hero-text a {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 8px 35px;
+    display: inline-flex;
+    border-radius: 8px;
 }
