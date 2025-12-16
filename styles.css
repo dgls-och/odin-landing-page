@@ -147,3 +147,42 @@ h1 {
     text-align: right;
     font-weight: 600;
 }
+
+/* cta (call to action) */
+.cta-container {
+    background-color: #3882F6;
+    width: 75%;
+    border-radius: 8px;
+    margin: 60px auto;
+    padding-block: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-text p,
+.cta-text h2 {
+    color: #E5E7EB;
+}
+
+.cta-container a {
+    color: #E5E7EB;
+    text-decoration: none;
+    border: 3px solid;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+/* footer */
+#footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-block: 40px;
+    text-align: center;
+}
