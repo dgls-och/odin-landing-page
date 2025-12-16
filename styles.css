@@ -11,7 +11,7 @@ body {
 /* hero section (header) */
 
 #header {
-    width: 100vw;
+    width: 100%;
     background-color: #1F2937;
 }
 
@@ -141,6 +141,10 @@ h1 {
     width: 45%;
     margin: auto;
     padding-block: 70px;
+}
+
+.quote-container em {
+    font-size: 30px;
 }
 
 .quote-container p {
