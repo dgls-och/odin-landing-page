@@ -3,3 +3,52 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+/* hero section (header) */
+
+#header {
+    width: 100vw;
+    background-color: #1F2937;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-tab,
+.hero-text,
+.nav-link a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* nav bar */
+.nav-tab {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 12px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 13px;
+} .nav-link a {
+    text-decoration: none;
+    word-spacing: -1px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.image-placeholder {
+    font-size: 24px;
+    color: #F9FAF8;
+}
