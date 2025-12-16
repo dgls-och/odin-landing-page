@@ -31,6 +31,7 @@ body {
 .nav-tab {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-block: 12px;
 }
 
@@ -41,10 +42,13 @@ body {
 
 .nav-link {
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 10px;
+    
 } .nav-link a {
     text-decoration: none;
     word-spacing: -1px;
+    font-size: 80%;
 }
 
 /* hero container */
@@ -112,6 +116,7 @@ h1 {
 .container-flex {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
