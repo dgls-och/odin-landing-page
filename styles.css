@@ -84,3 +84,41 @@ h1 {
     display: inline-flex;
     border-radius: 8px;
 }
+
+/* section-1 */
+#section-1 {
+    width: 80%;
+    margin: auto;
+    /*border: 1px solid;*/
+}
+
+#section-1 h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-container {
+    width: 155px;
+}
+
+.box-shape {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-container p {
+    text-align: center;
+    margin-top: 10px;
+}
